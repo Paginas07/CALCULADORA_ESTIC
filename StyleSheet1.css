@@ -3,12 +3,12 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff5e1;
+    background:linear-gradient(135deg, #ffffff 20%, #000000 100%);
     font-family: 'Arial', sans-serif;
 }
 
 .calculator {
-    background: linear-gradient(135deg, #FF7E79 10%, #FFC371 100%);
+    background: linear-gradient(135deg, #ffffff 50%, #000000 100%);
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -17,7 +17,7 @@
 
 .display {
     background: rgba(0, 0, 0, 0.1);
-    color: white;
+    color: rgb(12, 11, 11);
     text-align: right;
     padding: 20px;
     font-size: 2em;
@@ -44,71 +44,71 @@ button:nth-child(1) {
 }
 
 button:nth-child(2) {
-    background: #D500F9;
+    background: #5b68ff;
 }
 
 button:nth-child(3) {
-    background: #2979FF;
+    background: #5c38ff;
 }
 
 button:nth-child(4) {
-    background: #00E676;
+    background: #5c38ff;
 }
 
 button:nth-child(5) {
-    background: #FF9100;
+    background: #5c38ff;
 }
 
 button:nth-child(6) {
-    background: #C51162;
+    background: #5c38ff;
 }
 
 button:nth-child(7) {
-    background: #6200EA;
+    background: #5c38ff;
 }
 
 button:nth-child(8) {
-    background: #00BFA5;
+    background: #5c38ff;
 }
 
 button:nth-child(9) {
-    background: #FFEA00;
+    background: #5c38ff;
 }
 
 button:nth-child(10) {
-    background: #AA00FF;
+    background: #5c38ff;
 }
 
 button:nth-child(11) {
-    background: #304FFE;
+    background: #5c38ff;
 }
 
 button:nth-child(12) {
-    background: #00C853;
+    background: #5c38ff;
 }
 
 button:nth-child(13) {
-    background: #FF3D00;
+    background: #5c38ff;
 }
 
 button:nth-child(14) {
-    background: #D500F9;
+    background: #5c38ff;
 }
 
 button:nth-child(15) {
-    background: #2979FF;
+    background: #5c38ff;
 }
 
 button:nth-child(16) {
-    background: #00E676;
+    background: #5c38ff;
 }
 
 button:nth-child(17) {
-    background: #FF9100;
+    background: #5c38ff;
 }
 
 button:nth-child(18) {
-    background: #FF1744;
+    background: #80ff3b;
 }
 
 button:hover {
