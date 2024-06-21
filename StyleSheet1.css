@@ -1,5 +1,9 @@
 ﻿body {
-    display: flex;
+
+    
+
+
+    display: flexbox;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -7,6 +11,15 @@
     font-family: 'Arial', sans-serif;
 }
 
+h1{
+    font-family: cursive;
+    color: red;
+}
+div{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
 .btn {
     border: none; 
     color: black; 
