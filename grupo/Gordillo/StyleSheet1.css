@@ -5,12 +5,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #72EDF2;
+    background: linear-gradient(135deg, #ff0000 10%, #ff3939 80%);
     font-family: 'Arial', sans-serif;
 }
 
 .calculator {
-    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 80%);
+    background: linear-gradient(135deg, #f0f2f3 10%, #ff0000 80%);
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
