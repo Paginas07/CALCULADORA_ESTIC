@@ -1,0 +1,124 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+    background: linear-gradient(135deg, #FFAFBD 10%, #ffc3a0 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+
+.display {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+}
+
+    button:nth-child(1) {
+        background: #ff6f61;
+    }
+
+    button:nth-child(2) {
+        background: #6b5b95;
+    }
+
+    button:nth-child(3) {
+        background: #88b04b;
+    }
+
+    button:nth-child(4) {
+        background: #f7cac9;
+    }
+
+    button:nth-child(5) {
+        background: #92a8d1;
+    }
+
+    button:nth-child(6) {
+        background: #955251;
+    }
+
+    button:nth-child(7) {
+        background: #b565a7;
+    }
+
+    button:nth-child(8) {
+        background: #009b77;
+    }
+
+    button:nth-child(9) {
+        background: #dd4124;
+    }
+
+    button:nth-child(10) {
+        background: #d65076;
+    }
+
+    button:nth-child(11) {
+        background: #45b8ac;
+    }
+
+    button:nth-child(12) {
+        background: #e0b589;
+    }
+
+    button:nth-child(13) {
+        background: #9b2335;
+    }
+
+    button:nth-child(14) {
+        background: #bc243c;
+    }
+
+    button:nth-child(15) {
+        background: #55b4b0;
+    }
+
+    button:nth-child(16) {
+        background: #dfcfbe;
+    }
+
+    button:nth-child(17) {
+        background: #6b5b95;
+    }
+
+    button:nth-child(18) {
+        background: #ff6f61;
+    }
+
+    button:hover {
+        filter: brightness(1.2);
+    }
+
+    button:active {
+        filter: brightness(0.9);
+    }
+
+.zero {
+    grid-column: span 2;
+}
