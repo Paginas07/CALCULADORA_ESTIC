@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #92a8d1;
     font-family: 'Arial', sans-serif;
 }
 
@@ -17,7 +17,7 @@
 
 .display {
     background: rgba(0, 0, 0, 0.1);
-    color: white;
+    color: olive;
     text-align: right;
     padding: 20px;
     font-size: 2em;
@@ -36,7 +36,7 @@ button {
     font-size: 1.5em;
     cursor: pointer;
     transition: background 0.3s;
-    color: white;
+    color: black;
 }
 
     button:nth-child(1) {
@@ -76,11 +76,11 @@ button {
     }
 
     button:nth-child(10) {
-        background: #d65076;
+        background: #dd4124;
     }
 
     button:nth-child(11) {
-        background: #45b8ac;
+        background: #dd4124;
     }
 
     button:nth-child(12) {
