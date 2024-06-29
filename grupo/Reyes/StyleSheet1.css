@@ -50,3 +50,8 @@ button {
 .zero {
     grid-column: span 2;
 }
+.inicio{
+    position: absolute;
+  top: 20px;
+  left: 50px;
+}

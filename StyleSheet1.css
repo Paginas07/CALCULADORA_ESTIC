@@ -4,10 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 h1{
-    color: goldenrod;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
 }
 
 nav ul {
@@ -17,9 +18,9 @@ nav ul {
 }
 
 nav ul li {
-    --c: goldenrod;
+    --c: rgb(255, 0, 0);
     color: var(--c);
-    font-size: 16px;
+    font-size: 20px;
     border: 0.3em solid var(--c);
     border-radius: 0.5em;
     width: 12em;
@@ -51,7 +52,7 @@ nav ul li span {
 }
 
 nav ul li:hover {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 nav ul li:hover span {
